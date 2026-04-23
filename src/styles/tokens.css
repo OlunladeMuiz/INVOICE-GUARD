@@ -1,0 +1,53 @@
+:root {
+  font-family: 'League Spartan', 'Segoe UI', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color-scheme: light;
+
+  --bg: #eef3fb;
+  --surface: #ffffff;
+  --surface-soft: #f8fafd;
+  --text: #0f172a;
+  --muted: #64748b;
+  --soft: #7e88b3;
+  --border: rgba(126, 136, 179, 0.18);
+  --accent: #7c5dfa;
+  --accent-hover: #9277ff;
+  --accent-soft: rgba(124, 93, 250, 0.12);
+  --danger: #ec5757;
+  --danger-soft: rgba(236, 87, 87, 0.12);
+  --success: #33d69f;
+  --warning: #ff8f00;
+  --sidebar-bg: #1e2139;
+  --sidebar-top: #7c5dfa;
+  --drawer-backdrop: #70727a;
+  --shadow: 0 24px 70px rgba(15, 23, 42, 0.08);
+  --shadow-strong: 0 18px 40px rgba(5, 8, 16, 0.16);
+}
+
+[data-theme='dark'] {
+  --bg: #141625;
+  --surface: #1e2139;
+  --surface-soft: #252945;
+  --text: #ffffff;
+  --muted: #dfe3fa;
+  --soft: #888eb0;
+  --border: rgba(223, 227, 250, 0.12);
+  --accent: #7c5dfa;
+  --accent-hover: #9277ff;
+  --accent-soft: rgba(124, 93, 250, 0.18);
+  --danger: #ff9797;
+  --danger-soft: rgba(255, 151, 151, 0.12);
+  --success: #33d69f;
+  --warning: #ffb547;
+  --sidebar-bg: #1e2139;
+  --sidebar-top: #7c5dfa;
+  --drawer-backdrop: #070a12;
+  --shadow: 0 24px 70px rgba(0, 0, 0, 0.3);
+  --shadow-strong: 0 18px 40px rgba(0, 0, 0, 0.35);
+}
