@@ -74,5 +74,5 @@ npm run dev
 
 ## Deployment
 
-- Live URL: _add your deployed Vercel or Netlify URL here_
-- Repo: _add your GitHub repo URL here_
+- Live URL: https://invoice-guard-peach.vercel.app/
+- Repo: https://github.com/OlunladeMuiz/INVOICE-GUARD
